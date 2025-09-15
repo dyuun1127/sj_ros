@@ -1,8 +1,8 @@
-# Install script for directory: /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py
+# Install script for directory: /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kdy/ros2_study/install/my_first_package_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/kdy/sj_ros2/install/my_first_package_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

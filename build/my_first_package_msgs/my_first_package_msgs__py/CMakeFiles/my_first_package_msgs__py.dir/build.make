@@ -53,31 +53,31 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdy/ros2_study/src/my_first_package_msgs
+CMAKE_SOURCE_DIR = /home/kdy/sj_ros2/src/my_first_package_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdy/ros2_study/build/my_first_package_msgs
+CMAKE_BINARY_DIR = /home/kdy/sj_ros2/build/my_first_package_msgs
 
 # Utility rule file for my_first_package_msgs__py.
 
 # Include any custom commands dependencies for this target.
-include /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/compiler_depend.make
+include /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/progress.make
+include /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/progress.make
 
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/msg/_cmd_and_pose_vel.py
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn.py
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/action/_dist_turtle.py
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/msg/__init__.py
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/__init__.py
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/action/__init__.py
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn_s.c
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/msg/_cmd_and_pose_vel.py
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn.py
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/action/_dist_turtle.py
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/msg/__init__.py
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/__init__.py
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/action/__init__.py
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn_s.c
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c
 
 rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -103,8 +103,8 @@ rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typ
 rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
 rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -139,7 +139,7 @@ rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn_s.c: rosidl_generator
 rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c
 
-my_first_package_msgs__py: /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py
+my_first_package_msgs__py: /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py
 my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
 my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -152,18 +152,18 @@ my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/msg/_cmd_an
 my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/__init__.py
 my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn.py
 my_first_package_msgs__py: rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn_s.c
-my_first_package_msgs__py: /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build.make
+my_first_package_msgs__py: /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build.make
 .PHONY : my_first_package_msgs__py
 
 # Rule to build all files generated by this target.
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build: my_first_package_msgs__py
-.PHONY : /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build: my_first_package_msgs__py
+.PHONY : /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build
 
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/clean:
-	cd /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/my_first_package_msgs__py.dir/cmake_clean.cmake
-.PHONY : /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/clean
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/clean:
+	cd /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/my_first_package_msgs__py.dir/cmake_clean.cmake
+.PHONY : /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/clean
 
-/home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/depend:
-	cd /home/kdy/ros2_study/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/DependInfo.cmake "--color=$(COLOR)"
-.PHONY : /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/depend
+/home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/depend:
+	cd /home/kdy/sj_ros2/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/depend
 

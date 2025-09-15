@@ -1,9 +1,0 @@
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/uninstall.dir
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/my_first_package_msgs_uninstall.dir
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/test.dir
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/edit_cache.dir
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/rebuild_cache.dir
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/list_install_components.dir
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/install.dir
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/install/local.dir
-/home/kdy/ros2_study/my_first_package_msgs/build/my_first_package_msgs/CMakeFiles/install/strip.dir

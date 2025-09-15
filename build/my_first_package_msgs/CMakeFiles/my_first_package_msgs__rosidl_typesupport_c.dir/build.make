@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdy/ros2_study/src/my_first_package_msgs
+CMAKE_SOURCE_DIR = /home/kdy/sj_ros2/src/my_first_package_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdy/ros2_study/build/my_first_package_msgs
+CMAKE_BINARY_DIR = /home/kdy/sj_ros2/build/my_first_package_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/depend.make
@@ -86,8 +86,8 @@ rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cp
 rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
 rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp: rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp
@@ -98,44 +98,44 @@ rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp:
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o: CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o: rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o: CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o -MF CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o.d -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o -c /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o -MF CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o.d -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o -c /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp
 
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp > CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp > CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.i
 
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.s
 
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o: CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o: rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o: CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o -MF CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o.d -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o -c /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o -MF CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o.d -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o -c /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp
 
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp > CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp > CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.i
 
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.s
 
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o: CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o: rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o: CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o -MF CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o.d -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o -c /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o -MF CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o.d -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.o -c /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp
 
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp > CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp > CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.i
 
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp -o CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp.s
 
 # Object files for target my_first_package_msgs__rosidl_typesupport_c
 my_first_package_msgs__rosidl_typesupport_c_OBJECTS = \
@@ -163,7 +163,7 @@ libmy_first_package_msgs__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/libunique_
 libmy_first_package_msgs__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libmy_first_package_msgs__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/librcutils.so
 libmy_first_package_msgs__rosidl_typesupport_c.so: CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libmy_first_package_msgs__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libmy_first_package_msgs__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +177,6 @@ CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/clean:
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/my_first_package_msgs/action/dist_turtle__type_support.cpp
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp
-	cd /home/kdy/ros2_study/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kdy/sj_ros2/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/depend
 

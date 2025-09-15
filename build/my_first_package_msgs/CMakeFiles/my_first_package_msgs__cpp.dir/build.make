@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdy/ros2_study/src/my_first_package_msgs
+CMAKE_SOURCE_DIR = /home/kdy/sj_ros2/src/my_first_package_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdy/ros2_study/build/my_first_package_msgs
+CMAKE_BINARY_DIR = /home/kdy/sj_ros2/build/my_first_package_msgs
 
 # Utility rule file for my_first_package_msgs__cpp.
 
@@ -113,8 +113,8 @@ rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/ja
 rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
 rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
@@ -190,6 +190,6 @@ CMakeFiles/my_first_package_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/my_first_package_msgs__cpp.dir/clean
 
 CMakeFiles/my_first_package_msgs__cpp.dir/depend:
-	cd /home/kdy/ros2_study/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles/my_first_package_msgs__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kdy/sj_ros2/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles/my_first_package_msgs__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_first_package_msgs__cpp.dir/depend
 

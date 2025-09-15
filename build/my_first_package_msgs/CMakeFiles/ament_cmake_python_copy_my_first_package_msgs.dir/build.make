@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdy/ros2_study/src/my_first_package_msgs
+CMAKE_SOURCE_DIR = /home/kdy/sj_ros2/src/my_first_package_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdy/ros2_study/build/my_first_package_msgs
+CMAKE_BINARY_DIR = /home/kdy/sj_ros2/build/my_first_package_msgs
 
 # Utility rule file for ament_cmake_python_copy_my_first_package_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/compiler_de
 include CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_my_first_package_msgs:
-	/usr/bin/cmake -E copy_directory /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_py/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs/ament_cmake_python/my_first_package_msgs/my_first_package_msgs
+	/usr/bin/cmake -E copy_directory /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_py/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs/ament_cmake_python/my_first_package_msgs/my_first_package_msgs
 
 ament_cmake_python_copy_my_first_package_msgs: CMakeFiles/ament_cmake_python_copy_my_first_package_msgs
 ament_cmake_python_copy_my_first_package_msgs: CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/depend:
-	cd /home/kdy/ros2_study/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kdy/sj_ros2/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_copy_my_first_package_msgs.dir/depend
 
