@@ -1,5 +1,5 @@
 CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c.o: \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_py/my_first_package_msgs/action/_dist_turtle_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.12/Python.h \
  /usr/include/python3.12/patchlevel.h /usr/include/python3.12/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.12/pyconfig.h \
@@ -221,11 +221,11 @@ CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my
  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
  /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__struct.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__struct.h \
  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__functions.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__functions.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
@@ -244,5 +244,5 @@ CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h

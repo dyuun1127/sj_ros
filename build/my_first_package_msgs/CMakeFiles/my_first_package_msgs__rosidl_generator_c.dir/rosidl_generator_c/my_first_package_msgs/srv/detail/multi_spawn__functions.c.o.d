@@ -1,7 +1,7 @@
 CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.c.o: \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.c \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.c \
  /usr/include/stdc-predef.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -65,8 +65,8 @@ CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_f
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__struct.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /usr/include/assert.h /usr/include/string.h \

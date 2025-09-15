@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdy/sj_ros2/src/my_first_package_msgs
+CMAKE_SOURCE_DIR = /home/kdy/ros2_study/src/my_first_package_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdy/sj_ros2/build/my_first_package_msgs
+CMAKE_BINARY_DIR = /home/kdy/ros2_study/build/my_first_package_msgs
 
 # Utility rule file for my_first_package_msgs.
 
@@ -66,9 +66,9 @@ include CMakeFiles/my_first_package_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/my_first_package_msgs.dir/progress.make
 
-CMakeFiles/my_first_package_msgs: /home/kdy/sj_ros2/src/my_first_package_msgs/msg/CmdAndPoseVel.msg
-CMakeFiles/my_first_package_msgs: /home/kdy/sj_ros2/src/my_first_package_msgs/srv/MultiSpawn.srv
-CMakeFiles/my_first_package_msgs: /home/kdy/sj_ros2/src/my_first_package_msgs/action/DistTurtle.action
+CMakeFiles/my_first_package_msgs: /home/kdy/ros2_study/src/my_first_package_msgs/msg/CmdAndPoseVel.msg
+CMakeFiles/my_first_package_msgs: /home/kdy/ros2_study/src/my_first_package_msgs/srv/MultiSpawn.srv
+CMakeFiles/my_first_package_msgs: /home/kdy/ros2_study/src/my_first_package_msgs/action/DistTurtle.action
 CMakeFiles/my_first_package_msgs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 CMakeFiles/my_first_package_msgs: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/my_first_package_msgs: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
@@ -88,6 +88,6 @@ CMakeFiles/my_first_package_msgs.dir/clean:
 .PHONY : CMakeFiles/my_first_package_msgs.dir/clean
 
 CMakeFiles/my_first_package_msgs.dir/depend:
-	cd /home/kdy/sj_ros2/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/src/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs /home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles/my_first_package_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kdy/ros2_study/build/my_first_package_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/src/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs /home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles/my_first_package_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_first_package_msgs.dir/depend
 

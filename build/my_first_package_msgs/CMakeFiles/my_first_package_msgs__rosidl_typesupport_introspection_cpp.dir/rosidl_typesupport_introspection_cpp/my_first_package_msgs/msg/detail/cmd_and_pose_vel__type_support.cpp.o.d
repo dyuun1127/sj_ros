@@ -1,5 +1,5 @@
 CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp.o: \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_typesupport_introspection_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_typesupport_introspection_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/array \
  /usr/include/c++/13/compare /usr/include/c++/13/initializer_list \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -140,13 +140,13 @@ CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosid
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h \
  /usr/include/c++/13/stdlib.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h \
- /home/kdy/sj_ros2/build/my_first_package_msgs/rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h \
+ /home/kdy/ros2_study/build/my_first_package_msgs/rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \

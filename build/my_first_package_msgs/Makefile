@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kdy/sj_ros2/src/my_first_package_msgs
+CMAKE_SOURCE_DIR = /home/kdy/ros2_study/src/my_first_package_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kdy/sj_ros2/build/my_first_package_msgs
+CMAKE_BINARY_DIR = /home/kdy/ros2_study/build/my_first_package_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles /home/kdy/sj_ros2/build/my_first_package_msgs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles /home/kdy/ros2_study/build/my_first_package_msgs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdy/sj_ros2/build/my_first_package_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kdy/ros2_study/build/my_first_package_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,7 +415,7 @@ my_first_package_msgs__py: cmake_check_build_system
 
 # fast build rule for target.
 my_first_package_msgs__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build.make /home/kdy/sj_ros2/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build.make /home/kdy/ros2_study/build/my_first_package_msgs/my_first_package_msgs__py/CMakeFiles/my_first_package_msgs__py.dir/build
 .PHONY : my_first_package_msgs__py/fast
 
 rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__description.o: rosidl_generator_c/my_first_package_msgs/action/detail/dist_turtle__description.c.o
